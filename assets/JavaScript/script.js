@@ -5,6 +5,18 @@ function updateCurrentDay() {
   currentDayElement.textContent = currentDay;
 }
 
+//load events from local storage
+function loadEvents() {
+  $('.time-block').each(function() {
+    var blockHour = $(this).attr('id');
+    var event = localStorage.getItem(blockHour);
+
+    if (event) {
+      $(this).find('.description').val(event);
+    }
+  });
+}
+
 // Color coding for present,past and future
 function colorCodeTimeBlocks() {
   var currentHour = dayjs().hour();
@@ -18,18 +30,6 @@ function colorCodeTimeBlocks() {
       $(this).addClass('present');
     } else {
       $(this).addClass('past');
-    }
-  });
-}
-
-//load events from local storage
-function loadEvents() {
-  $('.time-block').each(function() {
-    var blockHour = $(this).attr('id');
-    var event = localStorage.getItem(blockHour);
-
-    if (event) {
-      $(this).find('.description').val(event);
     }
   });
 }

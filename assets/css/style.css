@@ -15,11 +15,11 @@ textarea {
 
 header {
   text-align: center;
-  background-color: rgb(15, 1, 28);
-  color: rgb(251, 250, 250);
+  background-color: rgba(228, 200, 255, 0.81);
+  color: rgb(23, 22, 22);
   border-radius: 0;
   border-bottom: 10px solid black;
-  padding: 10px;
+  padding: 40px;
 }
 
 .description {
@@ -38,8 +38,8 @@ header {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #a19e9ef2;
+  color: #f5f1f1;
   border-top: 1px dashed #000000;
 }
 
