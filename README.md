@@ -7,7 +7,7 @@ The codes were annotated carefully to allow anyone that accessed it to understan
 
 ## Application
 * [My-Planner Repository](http://github.com/clamadi/My-Planner)
-* [My-Planner Application](http://github.com/clamadi/My-Planner)
+* [My-Planner Application](https://clamadi.github.io/My-Planner/)
 
 ## How to Use
 To run this web page, right click on the index.html file and open on a browser of your choice.
