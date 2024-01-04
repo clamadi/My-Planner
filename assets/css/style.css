@@ -39,7 +39,8 @@ header {
 
 .hour {
   background-color: #a19e9ef2;
-  color: #f5f1f1;
+  color: #0b0b0b;
+  font-weight: 600;
   border-top: 1px dashed #000000;
 }
 
